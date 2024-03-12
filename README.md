@@ -4,9 +4,10 @@ The Pit is a platformer-roguelike where you play in the mind of an overimaginati
 This game incorporates many aspects from my favorite games such as Terraria and The Binding of Isaac. <br/>
 The main game is split up into two areas <br/>
 **Rogue Rooms** and **Build Rooms** <br/>
-<Details>
+
   <Summary>Room Types <br>
-    
+<Details>    
+  
   ### Rogue Rooms <br/>
   Rogue Rooms are typical top-down Zelda-style rooms with enemies and such. <br/>
   ### Build Rooms <br/>
