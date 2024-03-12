@@ -24,13 +24,13 @@ Each character has its own stats and unique abilities. <br>
 <summary>Characters</summary>
     
 Sam <br>
-> Literally does nothing special <br> <
+> Literally does nothing special < <br> 
 Ember <br>
-> Spits fire and can summon fire tornadoes <br> <
+> Spits fire and can summon fire < tornadoes <br> 
 Amnesiac <br>
-> Rerolls his stats and items <br> <
+> Rerolls his stats and items < <br> 
 Gravita <br>
-> Bends gravity to its will <br> <
+> Bends gravity to his will < <br> 
  
 <details>
 <summary>Cuddles</summary>
