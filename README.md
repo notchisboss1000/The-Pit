@@ -1,4 +1,4 @@
-[]() []() []()
+Index - [Rooms](https://github.com/notchisboss1000/The-Pit/blob/main/README.md#rogue-rooms-) []() []()
 
 <img src='image2.jpg' width='200'> <br>
 *The Pit is a game concept currently, not yet a fleshed-out game.* <br/>
