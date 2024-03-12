@@ -39,7 +39,6 @@ Gravita <br>
 <details>
 <summary>Cuddles</summary>
     
-Cuddles <br>
 
 > Deals out deadly contact damage and takes none back <br>
 
