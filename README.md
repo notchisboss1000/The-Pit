@@ -52,10 +52,10 @@ Cuddles II <br>
 The Tattered <br>
 > Can't regen but starts with max hp <br>
 
-*Para***Digm** <br>
->
+Para**Digm** <br>
+> Can Phase through the world
 
 Missingno. <br>
->
+> RANd0M sT@tS
 
   </details>
