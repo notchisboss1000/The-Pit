@@ -12,7 +12,7 @@ The main game is split up into two areas <br/>
   > Rogue Rooms are typical top-down Zelda-style rooms with enemies and such. <br/>
   
   ### Build Rooms <br/>
-  >> Build Rooms are 2d Terraria style rooms where there is a parkour area or a puzzle. <br/>
+  > Build Rooms are 2d Terraria style rooms where there is a parkour area or a puzzle. <br/>
   > In these rooms, your weapon turns into a digging tool based on its attributes, and you gain a block inventory. <br>
   
 ### Characters <br>
@@ -44,9 +44,9 @@ Gravita <br>
 
 > Deals out deadly contact damage and takes none back <br>
 
-Cuddles II <br>
+> Cuddles II <br>
 
-> Deals MASSIVE contact damage and takes some back <br>
+>> Deals MASSIVE contact damage and takes some back <br>
 
   </details>
 
