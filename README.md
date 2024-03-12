@@ -13,7 +13,7 @@ The main game is split up into two areas <br/>
   Build Rooms are 2d Terraria style rooms where there is a parkour area or a puzzle. <br/>
   In these rooms, your weapon turns into a digging tool based on its attributes, and you gain a block inventory. <br>
   ------------------------------------------------------------------------------------------------------------- <br>
-</Details>
+</Details> <br>
 
 <Details> <Summary>Characters</Summary>
     
