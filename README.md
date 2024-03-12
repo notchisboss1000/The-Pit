@@ -24,26 +24,36 @@ Each character has its own stats and unique abilities. <br>
 <summary>Characters</summary>
     
 Sam <br>
+
 > Literally does nothing special <br>
 Ember <br>
+
 > Spits fire and can summon fire tornadoes <br>
 Amnesiac <br>
+
 > Rerolls his stats and items <br>
+
 Gravita <br>
+
 > Bends gravity to its will
 
 <details>
 <summary>Cuddles</summary>
     
 Cuddles <br>
+
 > Deals out deadly contact damage and takes none back <br>
+
 Cuddles II <br>
+
 > Deals MASSIVE contact damage and takes some back <br>
+
   </details>
 
 
 The Tattered <br>
 > Can't regen but starts with max hp <br>
+
 *Para***Digm** <br>
 > 
 Missingno. <br>
