@@ -21,15 +21,6 @@ The main game is split up into two areas <br/>
     Ember <br>
     Amnesiac <br>
     Gravita <br>
-
-        <Details>    <Summary>Cuddles</Summary>
-        
-        Cuddles <br>
-        
-        Cuddles II <br>
-        
-        </Details>
-    
     The Tattered <br>
     *Para***Digm** <br>
     Missingno. <br>
