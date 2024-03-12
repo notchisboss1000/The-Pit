@@ -1,5 +1,5 @@
-<div style="width="200">
-    ![Image](/image2.jpg)
+<div style="float:left;margin:0 10px 10px 0" markdown="1">
+    ![Image2](image2.jpg)
 </div>
 
 The Pit is a game concept currently, not yet a fleshed-out game. <br/>
