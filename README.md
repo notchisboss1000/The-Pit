@@ -56,6 +56,6 @@ Para**Digm** <br>
 > Can Phase through the world
 
 Missingno. <br>
-> RANd0M sT@tS
+> Random everything
 
   </details>
