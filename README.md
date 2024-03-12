@@ -1,3 +1,3 @@
 ### The-Pit <dr/>
-![Logo](image2.jpg) <dr/>
+<img src="image2.jpg" alt="drawing" width="150"/>
 The Pit is a game concept
