@@ -5,7 +5,7 @@ This game incorporates many aspects from my favorite games such as Terraria and 
 The main game is split up into two areas <br/>
 **Rogue Rooms** and **Build Rooms** <br/>
 
-<Details>    <Summary>Room Types</Summary>
+<details>    <summary>Room Types</summary>
     
   ### Rogue Rooms <br/>
   Rogue Rooms are typical top-down Zelda-style rooms with enemies and such. <br/>
@@ -13,12 +13,13 @@ The main game is split up into two areas <br/>
   Build Rooms are 2d Terraria style rooms where there is a parkour area or a puzzle. <br/>
   In these rooms, your weapon turns into a digging tool based on its attributes, and you gain a block inventory. <br>
   ------------------------------------------------------------------------------------------------------------- <br>
-</Details> <br>
+</details> <br>
 
-Currently, there is 8 characters (and 2 variants); <br>
+Currently, there are 8 characters (and 2 variants); <br>
 Missingno., *Para***Digm**, The Tattered, Gravita, Amnesiac, Ember, Sam <br>
+<br>
 
-<Details/>    <Summary>Characters</Summary>
+<details>    <summary>Characters</summary>
     
     Sam <br>
     Ember <br>
@@ -30,4 +31,4 @@ Missingno., *Para***Digm**, The Tattered, Gravita, Amnesiac, Ember, Sam <br>
     *Para***Digm** <br>
     Missingno. <br>
     
-</Details>
+</details>
