@@ -1,6 +1,4 @@
-<div style="float:left;margin:0 10px 10px 0" markdown="1">
-    ![Image2](image2.jpg)
-</div>
+![](image2.jpg | width=100)
 
 The Pit is a game concept currently, not yet a fleshed-out game. <br/>
 The Pit is a platformer-roguelike where you play in the mind of an overimaginative teen. <br/>
