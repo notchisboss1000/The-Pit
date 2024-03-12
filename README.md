@@ -1,4 +1,4 @@
-![Image]([image2.jpg](https://raw.githubusercontent.com/notchisboss1000/The-Pit/main/image2.jpg) | width=100) 
+<img src='image2.jpg' width='200'>
 The Pit is a game concept currently, not yet a fleshed-out game. <br/>
 The Pit is a platformer-roguelike where you play in the mind of an overimaginative teen. <br/>
 This game incorporates many aspects from my favorite games such as Terraria and The Binding of Isaac. <br/>
