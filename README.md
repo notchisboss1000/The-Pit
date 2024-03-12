@@ -17,15 +17,5 @@ The main game is split up into two areas <br/>
 </details>
 
 Currently, there are 8 characters (and 2 variants); <br>
-Missingno., *Para***Digm**, The Tattered, Gravita, Amnesiac, Ember, Sam <br/>
+Missingno., *Para***Digm**, Cuddles, The Tattered, Gravita, Amnesiac, Ember, Sam <br/>
 
-<details> 
-<summary>Characters</summary> 
-    <br> Sam <br>
-    Ember <br>
-    Amnesiac <br>
-    Gravita <br>
-    *The Tattered* <br>
-    *Para***Digm**
-    
-</details>
