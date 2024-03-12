@@ -16,5 +16,26 @@ The main game is split up into two areas <br/>
 </Details>
 
 **Characters** <br>
-There is currently 8 Unique characters to play as (and 2 variants); <br>
-Missingno., *Para***Digm**, The Tattered, Cuddles, Gravita, Amnesiac, Ember, and Sam
+There are currently 8 Unique characters to play as (and 2 variants); <br>
+Missingno., *Para***Digm**, The Tattered, Cuddles, Gravita, Amnesiac, Ember, and Sam <br>
+
+<Details>    <Summary>Characters</Summary>
+
+    Sam <br>
+    Ember <br>
+    Amnesiac <br>
+    Gravita <br>
+
+        <Details>    <Summary>Cuddles</Summary>
+        
+        Cuddles <br>
+        
+        Cuddles II <br>
+        
+        </Details>
+    
+    The Tattered <br>
+    *Para***Digm** <br>
+    Missingno. <br>
+    
+</Details>
