@@ -5,9 +5,7 @@ This game incorporates many aspects from my favorite games such as Terraria and 
 The main game is split up into two areas <br/>
 **Rogue Rooms** and **Build Rooms** <br/>
 
-<details>
-<summary>Room Types</summary>
-    
+## Room Types    
   ### Rogue Rooms <br/>
   > Rogue Rooms are typical top-down Zelda-style rooms with enemies and such. <br/>
   
@@ -16,15 +14,11 @@ The main game is split up into two areas <br/>
   > In these rooms, your weapon turns into a digging tool based on its attributes, and you gain a block inventory. <br>
   
 ### Characters <br>
-  </details>
 
 Currently, there are 8 characters (and 2 variants); <br>
 Missingno., Para**Digm**, Cuddles, The Tattered, Gravita, Amnesiac, Ember, Sam <br/>
 Each character has its own stats and unique abilities. <br>
 
-<details>
-<summary>Characters</summary>
-    
 Sam <br>
 > Literally does nothing special <br>
 
@@ -37,26 +31,20 @@ Amnesiac <br>
 Gravita <br>
 > Bends gravity to his will <br>
 
- 
-<details>
-<summary>Cuddles </summary>
-
+Cuddles <br>
 > Deals out deadly contact damage and takes none back <br>
 
 Cuddles II <br>
 
 > Deals MASSIVE contact damage BUT takes some back <br>
 
-  </details>
-
 
 The Tattered <br>
 > Can't regen but starts with max hp <br>
 
 Para**Digm** <br>
-> Can Phase through the world
+> Can Phase through the world <br>
 
 Missingno. <br>
-> Random everything
+> Random everything <br>
 
-  </details>
