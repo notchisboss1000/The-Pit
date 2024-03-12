@@ -5,7 +5,8 @@ This game incorporates many aspects from my favorite games such as Terraria and 
 The main game is split up into two areas <br/>
 **Rogue Rooms** and **Build Rooms** <br/>
 
-<details>    <summary>Room Types</summary>
+<details>
+<summary>Room Types</summary>
     
   ### Rogue Rooms <br/>
   Rogue Rooms are typical top-down Zelda-style rooms with enemies and such. <br/>
@@ -19,7 +20,8 @@ Currently, there are 8 characters (and 2 variants); <br>
 Missingno., *Para***Digm**, The Tattered, Gravita, Amnesiac, Ember, Sam <br>
 <br>
 
-<details>    <summary>Characters</summary>
+<details>
+<summary>Characters</summary>
     
     Sam <br>
     Ember <br>
