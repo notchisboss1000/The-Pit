@@ -21,6 +21,8 @@ Missingno., *Para***Digm**, Cuddles, The Tattered, Gravita, Amnesiac, Ember, Sam
 Each character has its own stats and unique abilities. <br>
 
 <details><summary>Characters</summary>
+
     Sam <br>
     Ember <br>
+    
 </details>
