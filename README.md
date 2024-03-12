@@ -46,7 +46,7 @@ Gravita <br>
 
 > Cuddles II <br>
 
->> Deals MASSIVE contact damage and takes some back <br>
+> Deals MASSIVE contact damage and takes some back <br>
 
   </details>
 
