@@ -6,6 +6,7 @@ The main game is split up into two areas <br/>
 **Rogue Rooms** and **Build Rooms** <br/>
 <Details>
   <Summary>Room Types <br>
+    
   ### Rogue Rooms <br/>
   Rogue Rooms are typical top-down Zelda-style rooms with enemies and such. <br/>
   ### Build Rooms <br/>
