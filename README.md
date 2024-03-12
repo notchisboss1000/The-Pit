@@ -25,13 +25,13 @@ Each character has its own stats and unique abilities. <br>
     
 Sam <br>
 Ember <br>
-Amnesiac <br>
+Amnesiac
 
 <details>
 <summary>Cuddles</summary>
     
 Cuddles <br>
-Cuddles II <br>
+Cuddles II
 
   </details>
 
