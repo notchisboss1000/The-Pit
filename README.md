@@ -26,7 +26,7 @@ Missingno., *Para***Digm**, The Tattered, Gravita, Amnesiac, Ember, Sam <br/>
     Ember <br>
     Amnesiac <br>
     Gravita <br>
-    *The Tattered* <br>
-    *Para***Digm**
+    The Tattered <br>
+    ParaDigm
     
 </details>
