@@ -9,10 +9,12 @@ The main game is split up into two areas <br/>
 <summary>Room Types</summary>
     
   ### Rogue Rooms <br/>
-  Rogue Rooms are typical top-down Zelda-style rooms with enemies and such. <br/>
+  > Rogue Rooms are typical top-down Zelda-style rooms with enemies and such. <br/>
+  
   ### Build Rooms <br/>
-  Build Rooms are 2d Terraria style rooms where there is a parkour area or a puzzle. <br/>
-  In these rooms, your weapon turns into a digging tool based on its attributes, and you gain a block inventory. <br>
+  > Build Rooms are 2d Terraria style rooms where there is a parkour area or a puzzle. <br/>
+  > In these rooms, your weapon turns into a digging tool based on its attributes, and you gain a block inventory. <br>
+  
   ------------------------------------------------------------------------------------------------------------- <br>
   </details>
 
