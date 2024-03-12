@@ -5,7 +5,7 @@ This game incorporates many aspects from my favorite games such as Terraria and 
 The main game is split up into two areas <br/>
 **Rogue Rooms** and **Build Rooms** <br/>
 
-  <Summary>Room Types <br>
+  <Summary>Room Types<Summary/>
 <Details>    
   
   ### Rogue Rooms <br/>
