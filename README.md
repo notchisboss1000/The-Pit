@@ -22,7 +22,15 @@ Each character has its own stats and unique abilities. <br>
 
 <details>
 <summary>Characters</summary>
-    Sam <br>
-    Ember <br>
-    *e*
-    </details>
+    
+Sam <br>
+Ember <br>
+Amnesiac <br>
+Cuddles <br>
+Cuddles II <br>
+Gravita <br>
+The Tattered <br>
+*Para***Digm** <br>
+Missingno. <br>
+
+  </details>
