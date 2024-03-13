@@ -4,7 +4,7 @@
   <title>The Pit</title>
   <link rel="icon" type="readme/x-icon" href="/readme/favicon.ico">
 </head>
-<body>
+<body> <br>
  
 <img src='readme/image2.jpg' width='300'> <br/>
 
