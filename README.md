@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The Pit</title>
   <link rel="icon" type="readme/x-icon" href="/readme/favicon.ico">
 </head>
 <body> <br>
