@@ -18,7 +18,7 @@ The main game is split up into two areas <br/>
 ## Characters
 
 Currently, there are 8 characters (and 2 variants); <br>
-Missingno., Para**Digm**, Cuddles, The Tattered, Gravita, Amnesiac, Ember, Sam <br/>
+Missingno., Paradigm, Cuddles, The Tattered, Gravita, Amnesiac, Ember, Sam <br/>
 Each character has its own stats and unique abilities. <br>
 
 Sam <br>
@@ -44,7 +44,7 @@ Cuddles II <br>
 The Tattered <br>
 > Can't regen but starts with max hp <br>
 
-Para**Digm** <br>
+Paradigm <br>
 > Can Phase through the world <br>
 
 Missingno. <br>
