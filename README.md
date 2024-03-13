@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="icon" type="x-icon" href="/readme/favicon.ico">
+  <link rel="icon" type="x-icon" href="readme/favicon.ico">
 </head>
 <body> <br>
  
