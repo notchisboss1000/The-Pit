@@ -1,5 +1,6 @@
 <link rel="icon" type="readme/x-icon" href="readme/favicon.ico"> <br>
 <link rel="icon" type="image/x-icon" href="readme/favicon.ico"> <br>
+<link rel="icon" type="x-icon" href="readme/favicon.ico"> <br>
  
 <img src='readme/image2.jpg' width='300'> <br/>
 
