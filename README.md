@@ -1,5 +1,8 @@
+<link rel="icon" href="readme/favicon.ico" type="image/x-icon"/> 
+<br/>
+
 <img src='readme/image2.jpg' width='300'>
-<link rel="icon" href="readme/favicon.ico" type="image/x-icon"/> <br/>
+<br/>
 
 *The Pit is a game concept currently, not yet a fleshed-out game.* <br/>
 The Pit is a platformer-roguelike where you play in the mind of an overimaginative teen. <br/>
