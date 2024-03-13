@@ -1,4 +1,4 @@
-<link rel="icon" href="readme/favicon.ico" type="image/x-icon"/> 
+<link rel="icon" href="favicon.ico" type="image/x-icon"/> 
 <br/>
 
 <img src='readme/image2.jpg' width='300'>
