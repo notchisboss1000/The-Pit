@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search</title>
+</head>
+<body>
+  
+<input type="text" id="searchInput" placeholder="Search...">
+<button onclick="search()">Search</button>
+
+<script>
+function search() {
+  // Get the input value
+  let query = document.getElementById("searchInput").value.toLowerCase();
+  
+  // Perform autocorrection logic (you can customize this part based on your requirements)
+  // For simplicity, I'm just demonstrating a basic autocorrection by replacing some common typos
+  let autocorrectedQuery = query
+    .replace("googl", "google")
+    .replace("youtub", "youtube")
+    .replace("faceboook", "facebook")
+    // Add more autocorrection rules as needed
+  
+  // Redirect to the corrected search query
+  window.location.href = "search.html?data=" + encodeURIComponent(autocorrectedQuery);
+}
+</script>
+
+</body>
+</html>
