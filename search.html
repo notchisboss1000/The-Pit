@@ -1,32 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .search-container {
+            position: relative;
+        }
+
+        #search-input {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 300px;
+        }
+
+        #search-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+            width: 298px; /* Adjust width to match input */
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+        }
+
+        .suggestion-item {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .suggestion-item:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
 </head>
 <body>
-  
-<input type="text" id="searchInput" placeholder="Search...">
-<button onclick="search()">Search</button>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <div id="search-suggestions"></div>
+    </div>
 
-<script>
-function search() {
-  // Get the input value
-  let query = document.getElementById("searchInput").value.toLowerCase();
-  
-  // Perform autocorrection logic (you can customize this part based on your requirements)
-  // For simplicity, I'm just demonstrating a basic autocorrection by replacing some common typos
-  let autocorrectedQuery = query
-    .replace("googl", "google")
-    .replace("youtub", "youtube")
-    .replace("faceboook", "facebook")
-    // Add more autocorrection rules as needed
-  
-  // Redirect to the corrected search query
-  window.location.href = "search.html?data=" + encodeURIComponent(autocorrectedQuery);
-}
-</script>
+    <script>
+        const searchInput = document.getElementById('search-input');
+        const suggestionsContainer = document.getElementById('search-suggestions');
 
+        const suggestions = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew', 'kiwi', 'lemon'];
+
+        function showSuggestions() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const matchedSuggestions = suggestions.filter(suggestion =>
+                suggestion.toLowerCase().startsWith(searchTerm)
+            );
+
+            suggestionsContainer.innerHTML = '';
+            matchedSuggestions.forEach(suggestion => {
+                const suggestionElement = document.createElement('div');
+                suggestionElement.classList.add('suggestion-item');
+                suggestionElement.textContent = suggestion;
+                suggestionElement.addEventListener('click', () => {
+                    searchInput.value = suggestion;
+                    suggestionsContainer.style.display = 'none';
+                    navigateToSearch(suggestion);
+                });
+                suggestionsContainer.appendChild(suggestionElement);
+            });
+
+            if (matchedSuggestions.length > 0) {
+                suggestionsContainer.style.display = 'block';
+            } else {
+                suggestionsContainer.style.display = 'none';
+            }
+        }
+
+        function navigateToSearch(query) {
+            window.location.href = `https://notchisboss1000.github.io/The-Pit/?data=${encodeURIComponent(query)}`;
+        }
+
+        searchInput.addEventListener('input', showSuggestions);
+    </script>
 </body>
 </html>
