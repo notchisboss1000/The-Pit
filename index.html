@@ -3,13 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Pit</title>
 <link rel="icon" href="readme/favicon.ico">
+<title>The Pit</title> <!-- Default title -->
 </head>
 <body>
 <div id="content">
   <!-- Default content here -->
-  <title>The Pit WIKI</title>
   <img src='readme/image2.jpg' width='300'>
   <br>
   <p><em>The Pit is a game concept currently, not yet a fleshed-out game.</em>
@@ -94,11 +93,13 @@ window.onload = function() {
             <h2>Characters</h2>
             <p>This is the characters section.</p>
         `;
+        document.title = "The Pit - Characters"; // Change document title
     } else if (dataValue === 'items') {
         contentDiv.innerHTML = `
             <h2>Items</h2>
             <p>This is the items section.</p>
         `;
+        document.title = "The Pit - Items"; // Change document title
     } // Add more conditions as needed
 };
 </script>
