@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search</title>
+    <title>Search with Suggestions</title>
     <style>
         body {
             display: flex;
@@ -15,14 +15,26 @@
 
         .search-container {
             position: relative;
+            display: flex;
+            align-items: center;
         }
 
         #search-input {
             padding: 10px 20px;
             font-size: 16px;
             border: 1px solid #ccc;
-            border-radius: 5px;
+            border-radius: 5px 0 0 5px;
             width: 300px;
+        }
+
+        #search-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
         }
 
         #search-suggestions {
@@ -36,7 +48,7 @@
             width: 298px; /* Adjust width to match input */
             max-height: 200px;
             overflow-y: auto;
-            display: none;
+            display: block;
         }
 
         .suggestion-item {
@@ -52,6 +64,7 @@
 <body>
     <div class="search-container">
         <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
         <div id="search-suggestions"></div>
     </div>
 
@@ -59,11 +72,24 @@
         const searchInput = document.getElementById('search-input');
         const suggestionsContainer = document.getElementById('search-suggestions');
 
-        const suggestions = ['Characters',];
+        async function fetchSuggestions() {
+            try {
+                const response = await fetch('titles.html');
+                const html = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const titles = doc.querySelectorAll('li');
+                return Array.from(titles).map(title => title.textContent.trim());
+            } catch (error) {
+                console.error('Error fetching suggestions:', error);
+                return [];
+            }
+        }
 
-        function showSuggestions() {
+        async function showSuggestions() {
             const searchTerm = searchInput.value.toLowerCase();
-            const matchedSuggestions = suggestions.filter(suggestion =>
+            const allSuggestions = await fetchSuggestions();
+            const matchedSuggestions = allSuggestions.filter(suggestion =>
                 suggestion.toLowerCase().startsWith(searchTerm)
             );
 
@@ -92,6 +118,16 @@
         }
 
         searchInput.addEventListener('input', showSuggestions);
+
+        document.getElementById('search-button').addEventListener('click', () => {
+            const query = searchInput.value.trim();
+            if (query !== '') {
+                navigateToSearch(query);
+            }
+        });
+
+        // Initially show suggestions
+        showSuggestions();
     </script>
 </body>
 </html>
