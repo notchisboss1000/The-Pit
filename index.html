@@ -1,39 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Redirect</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="readme/favicon.ico">
+<title>The Pit Wiki</title> <!-- Default title -->
 </head>
 <body>
-    <button onclick="searchRedirect()">Search</button>
+<div id="content">
+  <!-- Default content here -->
+  <img src='readme/image2.jpg' width='300'>
+  <br>
+  <p><em>The Pit is a game concept currently, not yet a fleshed-out game.</em>
+  <br>
+  The Pit is a platformer-roguelike where you play in the mind of an overimaginative teen.
+  <br>
+  This game incorporates many aspects from my favorite games such as Terraria and The Binding of Isaac.
+  <br>
+  The main game is split up into two areas
+  <br>
+  <strong>Rogue Rooms</strong> and <strong>Build Rooms</strong>
+  </p>
+  <h2>Room Types</h2>
+  <p><strong>Rogue Rooms</strong>
+  <br>
+  &gt; Rogue Rooms are typical top-down Zelda-style rooms with enemies and such.
+  </p>
+  <p><strong>Build Rooms</strong>
+  <br>
+  &gt; Build Rooms are 2d Terraria style rooms where there is a parkour area or a puzzle.
+  <br>
+  &gt; In these rooms, your weapon turns into a digging tool based on its attributes, and you gain a block inventory.
+  </p>
+  <h2>Characters</h2>
+  <p>Currently, there are 8 characters (and 2 variants);
+  <br>
+  Missingno., Paradigm, Cuddles, The Tattered, Gravita, Amnesiac, Ember, Sam
+  <br>
+  Each character has its own stats and unique abilities.
+  </p>
+  <p>Sam
+  <br>
+  &gt; Literally does nothing special
+  </p>
+  <p>Ember
+  <br>
+  &gt; Spits fire and can summon fire tornadoes
+  </p>
+  <p>Amnesiac
+  <br>
+  &gt; Rerolls his stats and items
+  </p>
+  <p>Gravita
+  <br>
+  &gt; Bends gravity to his will
+  </p>
+  <p>Cuddles
+  <br>
+  &gt; Deals out deadly contact damage and takes none back
+  </p>
+  <p>Cuddles II
+  <br>
+  &gt; Deals MASSIVE contact damage BUT takes some back
+  </p>
+  <p>The Tattered
+  <br>
+  &gt; Can't regen but starts with max hp
+  </p>
+  <p>Paradigm
+  <br>
+  &gt; Can Phase through the world
+  </p>
+  <p>Missingno.
+  <br>
+  &gt; Random everything
+  </p>
+</div>
 
-    <script>
-        function searchRedirect() {
-            var searchQuery = prompt("Enter your search query:");
-            if (searchQuery !== null && searchQuery !== "") {
-                window.location.href = `https://notchisboss1000.github.io/The-Pit/?data=${encodeURIComponent(searchQuery)}`;
-            }
-        }
-    </script>
+<script>
+window.onload = function() {
+    // Get the URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    // Get the value of 'data'
+    const dataValue = urlParams.get('data');
+    
+    // Display content based on 'data' value
+    const contentDiv = document.getElementById('content');
+    
+    if (dataValue === 'characters') {
+        contentDiv.innerHTML = `
+            <h2>Characters</h2>
+            <p>This is the characters section.</p>
+        `;
+        document.title = "Characters - The Pit Wiki"; // Change document title
+    } else if (dataValue === 'items') {
+        contentDiv.innerHTML = `
+            <h2>Items</h2>
+            <p>This is the items section.</p>
+        `;
+        document.title = "Items - The Pit Wiki"; // Change document title
+    } // Add more conditions as needed
+};
+</script>
 </body>
 </html>
