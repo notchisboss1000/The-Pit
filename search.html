@@ -101,7 +101,6 @@
                 suggestionElement.addEventListener('click', () => {
                     searchInput.value = suggestion;
                     suggestionsContainer.style.display = 'none';
-                    navigateToSearch(suggestion);
                 });
                 suggestionsContainer.appendChild(suggestionElement);
             });
@@ -113,18 +112,16 @@
             }
         }
 
-        function navigateToSearch(query) {
-            window.location.href = `https://notchisboss1000.github.io/The-Pit/?data=${encodeURIComponent(query)}`;
+        function navigateToSearch() {
+            const query = searchInput.value.trim();
+            if (query !== '') {
+                window.location.href = `https://notchisboss1000.github.io/The-Pit/?data=${encodeURIComponent(query)}`;
+            }
         }
 
         searchInput.addEventListener('input', showSuggestions);
 
-        document.getElementById('search-button').addEventListener('click', () => {
-            const query = searchInput.value.trim();
-            if (query !== '') {
-                navigateToSearch(query);
-            }
-        });
+        document.getElementById('search-button').addEventListener('click', navigateToSearch);
 
         // Initially show suggestions
         showSuggestions();
